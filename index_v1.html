@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zolve - Get the Best Education Loan for Studying Abroad</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-white bg-white sticky-top shadow-sm" >
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#home">
+                <img class="header__logo" style="height: 50px; width: 80px;" src="https://www.zolveimages.zolve.com/website/images/zolve_logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#why">Why Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#loans">Loan Options</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#process">How It Works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-primary text-white ms-2 px-4" href="#cta">Apply Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section (Lead Generation) -->
+    <section id="hero" class="hero-section" style="background:  url('banner_image_1.jpg') center/cover no-repeat; min-height: 90vh;">
+        <div class="">
+            <div class="row align-items-center" style="height: 90vh;">
+                <div class="col-lg-6">
+                    <div class="hero-image-container">
+                    </div>
+                </div>
+                <div class="col-lg-6" style="padding-left: 14%;">
+                    <div class="hero-content">
+                        <h2 class="hero-title text-highlight">The smartest and fastest study abroad loan platform</h2>
+                        <p class="hero-subtitle">Compare lenders, check eligibility instantly, and secure the lowest interest rates with personalized expert support.</p>
+
+                        <div class="hero-form ">
+                            <form id="heroLeadForm">
+                                <div class="row g-2">
+                                    <div class="col-md-6">
+                                        <label for="heroName" class="form-label small">Full Name</label>
+                                        <input type="text" class="form-control" id="heroName" placeholder="Your name" required="">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="heroEmail" class="form-label small">Email</label>
+                                        <input type="email" class="form-control" id="heroEmail" placeholder="you@example.com" required="">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="heroPhone" class="form-label small">Phone</label>
+                                        <input type="tel" class="form-control" id="heroPhone" placeholder="Mobile number" required="">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="heroCountry" class="form-label small">Destination</label>
+                                        <select class="form-select" id="heroCountry" required="">
+                                            <option value="">Choose country</option>
+                                            <option value="usa">USA</option>
+                                            <option value="uk">UK</option>
+                                            <option value="canada">Canada</option>
+                                            <option value="australia">Australia</option>
+                                            <option value="germany">Germany</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="heroLoanAmount" class="form-label small">Estimated Loan Amount (₹)</label>
+                                        <input type="number" class="form-control" id="heroLoanAmount" placeholder="e.g. 1500000" required="">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="heroSeason" class="form-label small">Season</label>
+                                        <select class="form-select" id="heroSeason" required="">
+                                            <option value="">Choose Season</option>
+                                            <option value="2026">2025-26</option>
+                                            <option value="2025">2024-25</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 mt-2">
+                                        <button type="submit" class="btn btn-primary btn-lg w-100 rounded-pill" style="transform: translateY(0px);">Get My Eligibility</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <p class="small text-muted mt-3 mb-0">Fast approval • Expert guidance • One-stop platform • No hidden charges</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Why Students Choose Us -->
+    <section id="why" class="why-section py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-primary-light text-primary mb-2">Why Choose Us</span>
+                <h2 class="section-title">Why Students Choose Zolve</h2>
+                <p class="section-subtitle">Everything you need for your education loan journey</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon bg-primary-light">
+                            <i class="fas fa-layer-group text-primary"></i>
+                        </div>
+                        <h5 class="mt-3">One Platform for All Lenders</h5>
+                        <p class="text-muted">Compare all top banks & NBFCs in one place</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon bg-success-light">
+                            <i class="fas fa-clock text-success"></i>
+                        </div>
+                        <h5 class="mt-3">Instant Eligibility Check</h5>
+                        <p class="text-muted">Accurate loan eligibility in under 2 minutes</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon bg-info-light">
+                            <i class="fas fa-user-tie text-info"></i>
+                        </div>
+                        <h5 class="mt-3">Dedicated Loan Expert</h5>
+                        <p class="text-muted">Get personalized guidance from loan specialists</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon bg-warning-light">
+                            <i class="fas fa-thumbs-up text-warning"></i>
+                        </div>
+                        <h5 class="mt-3">Higher Approval Chances</h5>
+                        <p class="text-muted">Profile optimization increases approval rates</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon bg-danger-light">
+                            <i class="fas fa-handshake text-danger"></i>
+                        </div>
+                        <h5 class="mt-3">Negotiation Support</h5>
+                        <p class="text-muted">Get the best offers with our expert negotiation</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon bg-secondary-light">
+                            <i class="fas fa-lock text-dark"></i>
+                        </div>
+                        <h5 class="mt-3">100% Transparent</h5>
+                        <p class="text-muted">No hidden charges — fully transparent process</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Benefits -->
+    <section class="benefits-section py-5" style="display: none;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="section-title mb-4">Key Benefits</h2>
+                    <div class="benefit-item mb-4">
+                        <div class="d-flex align-items-start">
+                            <div class="benefit-icon">
+                                <i class="fas fa-percentage text-primary"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h5>Competitive Interest Rates</h5>
+                                <p class="text-muted mb-0">Starting from <strong>7.25%</strong> per annum</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="benefit-item mb-4">
+                        <div class="d-flex align-items-start">
+                            <div class="benefit-icon">
+                                <i class="fas fa-coins text-success"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h5>Loan Amounts Up To ₹1.5 Cr+</h5>
+                                <p class="text-muted mb-0">Coverage for all education expenses</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="benefit-item mb-4">
+                        <div class="d-flex align-items-start">
+                            <div class="benefit-icon">
+                                <i class="fas fa-ban text-info"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h5>0 Processing Fee</h5>
+                                <p class="text-muted mb-0">For select lenders & loan products</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="benefit-item mb-4">
+                        <div class="d-flex align-items-start">
+                            <div class="benefit-icon">
+                                <i class="fas fa-rocket text-warning"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h5>Faster Approvals</h5>
+                                <p class="text-muted mb-0">Get approved in just 3–7 days</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="benefit-item mb-4">
+                        <div class="d-flex align-items-start">
+                            <div class="benefit-icon">
+                                <i class="fas fa-mobile-alt text-danger"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h5>100% Digital Process</h5>
+                                <p class="text-muted mb-0">Apply anytime, anywhere from your phone</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="benefit-item">
+                        <div class="d-flex align-items-start">
+                            <div class="benefit-icon">
+                                <i class="fas fa-globe text-primary"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h5>Support for Global Study Destinations</h5>
+                                <p class="text-muted mb-0">USA, UK, Canada, Australia, Germany & more</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="benefits-illustration">
+                        <div class="stat-card stat-card-1">
+                            <h3 class="stat-number">50K+</h3>
+                            <p class="stat-label">Students Helped</p>
+                        </div>
+                        <div class="stat-card stat-card-2">
+                            <h3 class="stat-number">₹500Cr+</h3>
+                            <p class="stat-label">Loans Disbursed</p>
+                        </div>
+                        <div class="stat-card stat-card-3">
+                            <h3 class="stat-number">98%</h3>
+                            <p class="stat-label">Approval Rate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bank-wise Loan Comparison Table -->
+    <section id="loans" class="loans-section py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-primary-light text-primary mb-2">Lender Comparison</span>
+                <h2 class="section-title">Bank-wise Loan Comparison</h2>
+                <p class="section-subtitle">Compare interest rates, tenure, processing fees, and maximum loan amounts across India's top education lenders.</p>
+            </div>
+
+            <!-- Bank Comparison Table -->
+            <table class="table bank-comparison-table">
+                <thead>
+                    <tr class="table-header">
+                        <th>Bank / NBFC</th>
+                        <th class="text-center">Interest Rate</th>
+                        <th class="text-center">Tenure</th>
+                        <th class="text-center">Processing Fees</th>
+                        <th class="text-center">Max Amount</th>
+                        <th class="text-center">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>State Bank of India</strong></td>
+                        <td class="text-center">7.0% - 8.5%</td>
+                        <td class="text-center">Up to 15 years</td>
+                        <td class="text-center">0.5% - 1%</td>
+                        <td class="text-center">₹1.5 Cr</td>
+                        <td class="text-center"><button class="btn btn-sm btn-primary rounded-pill">Apply Now</button></td>
+                    </tr>
+                    <tr>
+                        <td><strong>HDFC Bank</strong></td>
+                        <td class="text-center">7.5% - 9.0%</td>
+                        <td class="text-center">Up to 12 years</td>
+                        <td class="text-center">1% - 1.5%</td>
+                        <td class="text-center">₹1 Cr</td>
+                        <td class="text-center"><button class="btn btn-sm btn-primary rounded-pill">Apply Now</button></td>
+                    </tr>
+                    <tr>
+                        <td><strong>ICICI Bank</strong></td>
+                        <td class="text-center">6.8% - 8.2%</td>
+                        <td class="text-center">Up to 14 years</td>
+                        <td class="text-center">0.5% - 1%</td>
+                        <td class="text-center">₹1.25 Cr</td>
+                        <td class="text-center"><button class="btn btn-sm btn-primary rounded-pill">Apply Now</button></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Axis Bank</strong></td>
+                        <td class="text-center">7.2% - 8.8%</td>
+                        <td class="text-center">Up to 13 years</td>
+                        <td class="text-center">1% - 1.5%</td>
+                        <td class="text-center">₹1 Cr</td>
+                        <td class="text-center"><button class="btn btn-sm btn-primary rounded-pill">Apply Now</button></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Kotak Mahindra Bank</strong></td>
+                        <td class="text-center">7.5% - 9.2%</td>
+                        <td class="text-center">Up to 12 years</td>
+                        <td class="text-center">1.5% - 2%</td>
+                        <td class="text-center">₹75 Lakhs</td>
+                        <td class="text-center"><button class="btn btn-sm btn-primary rounded-pill">Apply Now</button></td>
+                    </tr>
+                    <tr>
+                        <td><strong>IDFC First Bank</strong></td>
+                        <td class="text-center">6.5% - 7.9%</td>
+                        <td class="text-center">Up to 15 years</td>
+                        <td class="text-center">0% - 0.5%</td>
+                        <td class="text-center">₹1 Cr</td>
+                        <td class="text-center"><button class="btn btn-sm btn-primary rounded-pill">Apply Now</button></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Bajaj Finserv</strong></td>
+                        <td class="text-center">7.8% - 9.5%</td>
+                        <td class="text-center">Up to 10 years</td>
+                        <td class="text-center">1% - 2%</td>
+                        <td class="text-center">₹50 Lakhs</td>
+                        <td class="text-center"><button class="btn btn-sm btn-primary rounded-pill">Apply Now</button></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Federal Bank</strong></td>
+                        <td class="text-center">7.3% - 8.7%</td>
+                        <td class="text-center">Up to 14 years</td>
+                        <td class="text-center">0.5% - 1%</td>
+                        <td class="text-center">₹80 Lakhs</td>
+                        <td class="text-center"><button class="btn btn-sm btn-primary rounded-pill">Apply Now</button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="small text-muted text-center mt-4 mb-0"><i class="fas fa-info-circle me-1"></i>Rates and terms are indicative and subject to change. Please contact the respective bank for current offerings.</p>
+        </div>
+    </section>
+
+    <!-- How It Works (Infographic Journey) -->
+    <section id="process" class="process-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-primary-light text-primary mb-2">Journey</span>
+                <h2 class="section-title">Your Loan Journey — Visualized</h2>
+                <p class="section-subtitle">An infographic journey with clear milestones and transitional animations.</p>
+            </div>
+
+            <div class="process-flow" aria-hidden="false">
+                <div class="process-step" data-step="1">
+                    <div class="step-number">1</div>
+                    <i class="fas fa-edit text-primary fa-lg mb-2"></i>
+                    <h5 class="mb-1">Fill Short Form</h5>
+                    <p class="small text-muted">Provide basic profile, country, course and budget. Takes 5–10 minutes.</p>
+                </div>
+
+                <div class="connector d-none d-md-block" aria-hidden="true"></div>
+
+                <div class="process-step" data-step="2">
+                    <div class="step-number">2</div>
+                    <i class="fas fa-handshake text-primary fa-lg mb-2"></i>
+                    <h5 class="mb-1">Get Matched</h5>
+                    <p class="small text-muted">Matched instantly with banks, NBFCs & partner lenders.</p>
+                </div>
+
+                <div class="connector d-none d-md-block" aria-hidden="true"></div>
+
+                <div class="process-step" data-step="3">
+                    <div class="step-number">3</div>
+                    <i class="fas fa-balance-scale text-primary fa-lg mb-2"></i>
+                    <h5 class="mb-1">Compare Offers</h5>
+                    <p class="small text-muted">Compare rates, processing time and approval chances side-by-side.</p>
+                </div>
+
+                <div class="connector d-none d-md-block" aria-hidden="true"></div>
+
+                <div class="process-step" data-step="4">
+                    <div class="step-number">4</div>
+                    <i class="fas fa-user-tie text-primary fa-lg mb-2"></i>
+                    <h5 class="mb-1">Expert Guidance</h5>
+                    <p class="small text-muted">Dedicated advisor helps with documentation and negotiation.</p>
+                </div>
+
+                <div class="connector d-none d-md-block" aria-hidden="true"></div>
+
+                <div class="process-step" data-step="5">
+                    <div class="step-number">5</div>
+                    <i class="fas fa-check-circle text-primary fa-lg mb-2"></i>
+                    <h5 class="mb-1">Approve & Disburse</h5>
+                    <p class="small text-muted">Get approval and disbursal with end-to-end support.</p>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-12 text-center small text-muted">Scroll horizontally to view the full journey or swipe on mobile. Steps animate into view.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials-section py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-primary-light text-primary mb-2">Success Stories</span>
+                <h2 class="section-title">What Our Students Say</h2>
+                <p class="section-subtitle">Real stories from students who got their dream education loans</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="testimonial-text">"Got my education loan in just 5 days with the best rate! The entire process was smooth and hassle-free."</p>
+                        <div class="testimonial-author mt-4 pt-4 border-top">
+                            <h6 class="mb-0">Priya Sharma</h6>
+                            <small class="text-muted">Student, USA (MIT)</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="testimonial-text">"They guided me throughout the documentation and approval process. The experts were incredibly helpful and supportive!"</p>
+                        <div class="testimonial-author mt-4 pt-4 border-top">
+                            <h6 class="mb-0">Arjun Patel</h6>
+                            <small class="text-muted">Student, UK (Oxford)</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="testimonial-text">"Comparing lenders saved me ₹80,000 in interest! I got a 7.5% rate instead of the initial 9.5% offered."</p>
+                        <div class="testimonial-author mt-4 pt-4 border-top">
+                            <h6 class="mb-0">Neha Gupta</h6>
+                            <small class="text-muted">Student, Canada (Toronto)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="cta-section py-5 bg-gradient" style="display: none;">
+        <div class="container text-center">
+            <h2 class="cta-title mb-3">Ready to Fund Your Education?</h2>
+            <p class="cta-subtitle mb-4">Join 50,000+ students who found the best education loans through Zolve</p>
+            <div class="cta-buttons">
+                <button class="btn btn-light btn-lg rounded-pill px-5 me-3" data-bs-toggle="modal" data-bs-target="#eligibilityModal">
+                    Start Your Application
+                </button>
+                <button class="btn btn-outline-light btn-lg rounded-pill px-5">
+                    Talk to Expert <i class="fas fa-phone ms-2"></i>
+                </button>
+            </div>
+            <p class="text-light mt-4">✓ Takes just 15 minutes • ✓ No credit score required • ✓ Free consultation</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-lg-4 mb-4">
+                    <img style="height: 50px;width: 80px;" src="https://www.zolveimages.zolve.com/website/images/logo_dark_bg.svg" alt="" class="footer__logo">
+                    <p class="small text-muted">Making education loans simple, transparent, and accessible for every student.</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="text-muted me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-muted me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-muted me-3"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-muted"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h6 class="fw-bold mb-3">Product</h6>
+                    <ul class="list-unstyled small">
+                        <li><a href="#" class="text-muted text-decoration-none">Education Loans</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Compare Lenders</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Eligibility Check</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Apply Now</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h6 class="fw-bold mb-3">Company</h6>
+                    <ul class="list-unstyled small">
+                        <li><a href="#" class="text-muted text-decoration-none">About Us</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Blog</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Careers</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <h6 class="fw-bold mb-3">Legal</h6>
+                    <ul class="list-unstyled small">
+                        <li><a href="#" class="text-muted text-decoration-none">Privacy Policy</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Terms of Service</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Disclaimer</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="bg-secondary">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="small text-muted mb-0">&copy; 2025 Zolve. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="small text-muted mb-0">Made with <i class="fas fa-heart text-danger"></i> for students</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Eligibility Modal -->
+    <div class="modal fade" id="eligibilityModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title">Check Your Eligibility</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="eligibilityForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="country" class="form-label">Destination Country</label>
+                            <select class="form-select" id="country" required>
+                                <option value="">Select a country</option>
+                                <option value="usa">USA</option>
+                                <option value="uk">UK</option>
+                                <option value="canada">Canada</option>
+                                <option value="australia">Australia</option>
+                                <option value="germany">Germany</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="loanAmount" class="form-label">Estimated Loan Amount</label>
+                            <input type="number" class="form-control" id="loanAmount" placeholder="Enter loan amount in ₹" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 rounded-pill">Check Eligibility</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
