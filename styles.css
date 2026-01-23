@@ -9,7 +9,7 @@
     --primary-light: #FFECE3;
     --secondary-color: #000000;
     --accent-color: #FF6B35;
-    --success-color: #CCCACA;
+    --success-color: #78f892;
     --info-color: #00B4D8;
     --warning-color: #FFC107;
     --danger-color: #FF3B30;
@@ -188,12 +188,13 @@ ease;
 
 .hero-title {
     font-size: 2rem;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 .hero-subtitle {
     font-size: 1rem;
-    line-height: 1.2;
+    line-height: 1.4;
+    color: #6d7075;
 }
 
 .highlight-box {
@@ -296,7 +297,7 @@ ease;
 }
 
 .bank-logo{
-    width: 50%;
+    width: 85%;
     height: 100%;
 }
 .bank-logo-modal{
@@ -419,7 +420,7 @@ ease;
 
 .text-highlight {
     color: var(--primary-color) !important;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 /* Comparison Table */
@@ -613,17 +614,19 @@ ease;
     border-radius: 1rem;
     text-align: center;
     border: 1px solid var(--border-color);
-    transition: transform 0.45s cubic-bezier(.22,.9,.3,1), box-shadow 0.3s ease, opacity 0.45s ease;
+    /*transition: transform 0.45s cubic-bezier(.22,.9,.3,1), box-shadow 0.3s ease, opacity 0.45s ease;*/
     opacity: 0;
     transform: translateY(20px);
     position: relative;
     overflow: hidden;
+    height: 25vh;
 }
 
 .process-step.visible {
     transform: translateY(0);
-    opacity: 1;
     box-shadow: var(--shadow-md);
+    opacity: 1;
+    
 }
 
 .step-number {
